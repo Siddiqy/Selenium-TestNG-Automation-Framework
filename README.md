@@ -32,27 +32,6 @@ Go to **Eclipse Marketplace** and download and install the **TestNG for Eclipse*
     <version>5.3.0</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
-<dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi</artifactId>
-    <version>5.2.3</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
-<dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi-ooxml</artifactId>
-    <version>5.2.3</version>
-</dependency>
-
-<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
-<dependency>
-    <groupId>com.relevantcodes</groupId>
-    <artifactId>extentreports</artifactId>
-    <version>2.41.2</version>
-</dependency>
-
 <!-- SLF4j bridge to prevent SLFJ error message -->
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>
