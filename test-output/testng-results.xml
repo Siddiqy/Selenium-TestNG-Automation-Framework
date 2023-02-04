@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-04T13:30:07 BDT" name="Suite" finished-at="2023-02-04T13:31:11 BDT" duration-ms="63568">
+    <groups>
+    </groups>
+    <test started-at="2023-02-04T13:30:07 BDT" name="Test" finished-at="2023-02-04T13:31:11 BDT" duration-ms="63568">
+      <class name="login.test.LoginPageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:login.test.LoginPageTest@17497425]" started-at="2023-02-04T13:30:07 BDT" name="Setup" finished-at="2023-02-04T13:30:23 BDT" duration-ms="15665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:login.test.LoginPageTest@17497425]" started-at="2023-02-04T13:30:23 BDT" name="verifyInvalidLogin" data-provider="invalid_credentials" finished-at="2023-02-04T13:30:26 BDT" duration-ms="3136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.test.LoginPageTest@17497425]" started-at="2023-02-04T13:30:26 BDT" name="tearDown" finished-at="2023-02-04T13:30:26 BDT" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:login.test.LoginPageTest@17497425]" started-at="2023-02-04T13:30:26 BDT" name="Setup" finished-at="2023-02-04T13:30:51 BDT" duration-ms="24798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:login.test.LoginPageTest@17497425]" started-at="2023-02-04T13:30:51 BDT" name="verifyInvalidLogin" data-provider="invalid_credentials" finished-at="2023-02-04T13:30:54 BDT" duration-ms="3563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.test.LoginPageTest@17497425]" started-at="2023-02-04T13:30:54 BDT" name="tearDown" finished-at="2023-02-04T13:30:56 BDT" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:login.test.LoginPageTest@17497425]" started-at="2023-02-04T13:30:56 BDT" name="Setup" finished-at="2023-02-04T13:31:00 BDT" duration-ms="4587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:login.test.LoginPageTest@17497425]" started-at="2023-02-04T13:31:00 BDT" name="verifyInvalidLogin" data-provider="invalid_credentials" finished-at="2023-02-04T13:31:02 BDT" duration-ms="2144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Supervisor]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.test.LoginPageTest@17497425]" started-at="2023-02-04T13:31:02 BDT" name="tearDown" finished-at="2023-02-04T13:31:02 BDT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:login.test.LoginPageTest@17497425]" started-at="2023-02-04T13:31:02 BDT" name="Setup" finished-at="2023-02-04T13:31:08 BDT" duration-ms="5905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="verifyValidLogin(java.lang.String,java.lang.String)[pri:1, instance:login.test.LoginPageTest@17497425]" started-at="2023-02-04T13:31:08 BDT" name="verifyValidLogin" data-provider="valid_credentials" finished-at="2023-02-04T13:31:11 BDT" duration-ms="2252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.test.LoginPageTest@17497425]" started-at="2023-02-04T13:31:11 BDT" name="tearDown" finished-at="2023-02-04T13:31:11 BDT" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login.test.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
