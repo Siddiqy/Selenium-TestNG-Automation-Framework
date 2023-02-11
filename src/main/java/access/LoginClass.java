@@ -8,7 +8,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LoginClass {
 	public WebDriver driver;
-	String url = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
+	String url = "http://localhost/orangehrm-5.3/web/index.php/auth/login";
 	
 	@BeforeMethod
 	public void Setup() {

@@ -24,14 +24,14 @@ public class LoginPageTest extends LoginClass {
 		login.typeUserid(username);
 		login.typePassword(password);
 		login.clickSignIn();
-		Assert.assertEquals(login.verifyDashboard(), "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index");;
+		Assert.assertEquals(login.verifyDashboard(), "http://localhost/orangehrm-5.3/web/index.php/dashboard/index");;
 	}
 
 	@DataProvider(name="invalid_credentials")
 	public Object[][] invalidCredentials(){
 		return new Object[][] {
 			{"Admin", "Password"},
-			{"User", "admin123"},
+			{"User", "$Monwar007"},
 			{"Supervisor", "123456"}
 		};
 	}
@@ -39,7 +39,7 @@ public class LoginPageTest extends LoginClass {
 	@DataProvider(name="valid_credentials")
 	public Object[][] validCredentials(){
 		return new Object[][] {
-			{"Admin", "admin123"}
+			{"Admin", "$Monwar007"}
 		};
 	}
 }

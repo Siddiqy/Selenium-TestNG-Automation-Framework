@@ -39,7 +39,7 @@ public class LoginPage {
 	}
 	
 	public String verifyDashboard() {
-		wait.until(ExpectedConditions.urlToBe("https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"));
+		wait.until(ExpectedConditions.urlToBe("http://localhost/orangehrm-5.3/web/index.php/dashboard/index"));
 		return driver.getCurrentUrl();
 	}
 	

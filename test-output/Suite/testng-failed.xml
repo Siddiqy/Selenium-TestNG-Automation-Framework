@@ -7,7 +7,8 @@
         <methods>
           <include name="Setup"/>
           <include name="tearDown"/>
-          <include name="verifyValidLogin" invocation-numbers="0"/>
+          <include name="verifyValidLogin"/>
+          <include name="verifyInvalidLogin"/>
         </methods>
       </class> <!-- login.test.LoginPageTest -->
     </classes>
